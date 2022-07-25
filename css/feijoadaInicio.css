@@ -1,0 +1,43 @@
+body {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 145vh;
+}
+ 
+h1:hover{
+    color: blue;
+}
+
+.img1{
+    border: solid 4px black; 
+/*borda que vai cobri nosso elemento --> */
+width: 500px;
+/*largura da borda*/
+margin: left 600px;
+margin-right: 300;
+/*Afasta a imagem de cima para baixo*/
+}
+
+.img2{
+  border: solid 5px sienna;
+  width: 500px;
+  margin-left: 865px;
+}
+
+.div2{
+    border: 2px solid black;
+
+}
+.container{
+    display: flex;
+ }
+ video{
+    margin-left: 600px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    
+  
+ }
+
